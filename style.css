@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #f3f2ef;
+  text-align: center;
+}
+/* Header Section start */
+.container {
+  /* width: 1175px; */
+  margin: 0 auto;
+}
+.container .mainlogo {
+  display: block;
+  text-align: left;
+  margin-left: 150px;
+}
+
+.headersection {
+  padding: 8px 0;
+}
+.container .mainlogo .logo {
+  width: 135px;
+}
+.container h1 {
+  font-weight: 400;
+  font-size: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.container .mainlogo h1 {
+  font-weight: 200;
+}
+/* Header section end */
+
+/* Main section start */
+.content {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  row-gap: 20px;
+  align-items: center;
+}
+.login-page {
+  background-color: white;
+  box-shadow: 0 5px 15px #ccc;
+  padding: 40px 33px;
+  border-radius: 10px;
+  width: 420px;
+}
+
+form.login-from {
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+}
+.loginwrapper {
+  position: relative;
+}
+.loginwrapper span {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 400;
+}
+.loginwrapper input {
+  text-align: left;
+  padding: 6px;
+  border-radius: 5px;
+  margin-top: 8px;
+  width: 100%;
+  outline: none;
+}
+
+.loginwrapper .show {
+  position: absolute;
+  color: #0a66c2;
+  cursor: pointer;
+  right: 12px;
+  transform: translateY(-30px);
+}
+.remember {
+  text-align: left;
+}
+.remember #checkbox {
+  width: 18px;
+  height: 15px;
+}
+
+.remember span {
+  font-weight: 300;
+}
+.linkpara p {
+  font-size: 11px;
+  color: #999;
+  font-weight: 400;
+}
+
+.linkpara p a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0a66c2;
+}
+
+.agreebutton input {
+  background-color: #0a66c2;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  width: 100%;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.or {
+  margin: 20px 0px;
+  color: #666;
+  position: relative;
+  text-align: center;
+}
+
+.or::before {
+  content: "";
+  background-color: #d1cbcb;
+  width: 140px;
+  height: 1px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+.or::after {
+  content: "";
+  background-color: #d1cbcb;
+  width: 140px;
+  height: 1px;
+  right: 0;
+  position: absolute;
+  top: 50%;
+}
+.button {
+  text-align: center;
+}
+
+ul.loginbutton li {
+  border: 2px solid #999;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 10px;
+  position: relative;
+}
+
+ul.loginbutton li a {
+  text-decoration: none;
+  color: #020202;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+ul.loginbutton li a img {
+  width: 22px;
+  margin-right: 10px;
+  position: absolute;
+  transform: translatex(-30px);
+}
+
+ul.loginbutton {
+  text-align: center;
+}
+.button {
+  text-align: center;
+}
+
+ul.loginbutton li {
+  border: 2px solid #999;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 10px;
+  position: relative;
+  cursor: pointer;
+}
+
+ul.loginbutton li a {
+  text-decoration: none;
+  color: #020202;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+ul.loginbutton li a img {
+  width: 22px;
+  margin-right: 10px;
+  position: absolute;
+  transform: translatex(-30px);
+}
+
+ul.loginbutton {
+  text-align: center;
+}
+
+.Sign-in-link {
+  /* margin-top: 30px; */
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.Sign-in-link a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0a66c2;
+}
+.button {
+  text-align: center;
+}
+
+ul.loginbutton li {
+  border: 2px solid #999;
+  border-radius: 50px;
+  margin-bottom: 15px;
+  list-style: none;
+  padding: 10px;
+  position: relative;
+}
+
+ul.loginbutton li a {
+  text-decoration: none;
+  color: #020202;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+ul.loginbutton li a img {
+  width: 22px;
+  margin-right: 10px;
+  position: absolute;
+  transform: translatex(-30px);
+}
+
+ul.loginbutton {
+  text-align: center;
+}
+
+.Sign-in-link {
+  margin-top: 35px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.Sign-in-link a {
+  text-decoration: none;
+  font-weight: 500;
+  color: #0a66c2;
+}
+
+.Get-help {
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #222;
+}
+
+.Get-help a {
+  text-decoration: none;
+  color: #0a66c2;
+  font-weight: 500;
+}
+#linkedinloginpage {
+  margin-bottom: 100px;
+}
+/* Main section end */
+
+/* Footer section start */
+ul.footerpara {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  column-gap: 16px;
+  padding-left: 298px;
+}
+
+ul.footerpara li {
+  text-align: center;
+  list-style: none;
+}
+
+ul.footerpara li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 12px;
+  font-weight: 300;
+}
+
+ul.footerpara li img {
+  width: 75px;
+  text-align: left;
+  transform: translateY(20px);
+}
+
+footer.footeroption {
+  text-align: center;
+  width: 100%;
+}
+li.firsta {
+  overflow: hidden;
+  transform: translate(0px, -30px);
+}
+/* Footer Section End */
