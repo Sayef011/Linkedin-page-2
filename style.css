@@ -65,6 +65,7 @@ form.login-from {
 }
 .loginwrapper {
   position: relative;
+  outline: none;
 }
 .loginwrapper span {
   display: block;
